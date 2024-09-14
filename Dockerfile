@@ -5,4 +5,4 @@ FROM python:3.10
 EXPOSE 5000
 
 # 设置容器启动时的默认命令
-CMD ["python", "main.py"]
+CMD ["python", "./main.py"]
