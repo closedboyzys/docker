@@ -1,10 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# 执行 Flask 启动脚本
-bash ./flask.sh
+echo ">>> 正在执行启动脚本 greenweast_creat.sh ..."
 
-# 等待上述命令完成后，执行 Python 脚本
-python post_creat.py
-# 暂停 1 秒
-sleep 1
-python post_stop.py
+# 运行 Python 程序
+python main.py
